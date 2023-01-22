@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Manjari&display=swap" rel="stylesheet">
+    <link rel="icon" href="./src/imagens/logov.ico">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reponsivo.css">
+
+    <title>Mundo SUITS</title>
+</head>
+
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay muted loop>
+            <source src="./src/video/video-suits.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/logov.ico" alt="">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="./elenco.html">Elenco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/Suits_Logo.png" alt="imagem do titulo da serie">
+            <p class="descricao">
+                Suits é uma série de televisão de drama legal americano, criada e escrita por Aaron Korsh. A série
+                estreou em 23 de junho de 2011, no canal USA Network, onde é exibida atualmente. Suits se passa em um
+                escritório de advocacia fictício na cidade de Nova Iorque. A série acompaha os personagens Mike Ross,
+                interpretado por Patrick J. Adams, e Harvey Specter, interpretado por Gabriel Macht.
+            </p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="suits" src="./src/imagens/img2.png" alt="">
+        <div class="modal abert">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">x</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/eTTdCbodKV0"
+                    title="Trailer Oficial" frameborder="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen"></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./src/js/index.js"></script>
+
+</html>
